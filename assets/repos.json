@@ -35,7 +35,7 @@
 	{
 		"repo": "kolibril13/jupyter-tldraw",
 		"description": "the very good free whiteboard tldraw in the jupyter output.",
-		"imageUrl": "https://private-user-images.githubusercontent.com/44469195/260029423-8ba7e662-1f35-4e3b-b342-6d9fd3079e22.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjU3NzcsIm5iZiI6MTcxMTIyNTQ3NywicGF0aCI6Ii80NDQ2OTE5NS8yNjAwMjk0MjMtOGJhN2U2NjItMWYzNS00ZTNiLWIzNDItNmQ5ZmQzMDc5ZTIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDIwMjQzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRkNWE3NTEwMWMwZGVhMWI5ZDFhOGFkNGU3NGNmZGVhMmQ3Y2RlOTczMzM4YTIwYTNhZDM0MTQxMzI0NGVhNzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.6DUT7NSdBI2q0paMzFRzBRMbYzDQUU4p0nrw7RHDMfI"
+		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/df925f82-c1fd-4a12-9587-1ad8671d06cc"
 	},
 	{
 		"repo": "juba/pyobsplot",
@@ -50,7 +50,7 @@
 	{
 		"repo": "higlass/higlass-python",
 		"description": "Python bindings for the HiGlass viewer",
-		"imageUrl": "https://user-images.githubusercontent.com/24403730/159050305-e6a48f03-fba1-4ff7-8eee-2e9c5c40ef88.gif"
+		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/0b261986-e249-4e78-8596-70556580346d"
 	},
 	{
 		"repo": "OzetteTech/comparative-embedding-visualization",
@@ -188,7 +188,7 @@
 	{
 		"repo": "manzt/carbonplan-maps",
 		"description": "A Jupyter Widget for carbonplan maps.",
-		"imageUrl": "https://private-user-images.githubusercontent.com/24403730/253949678-4d35f702-1833-471a-9e11-8c7de2aed289.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjcxNTMsIm5iZiI6MTcxMTIyNjg1MywicGF0aCI6Ii8yNDQwMzczMC8yNTM5NDk2NzgtNGQzNWY3MDItMTgzMy00NzFhLTllMTEtOGM3ZGUyYWVkMjg5LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDIwNDczM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBmMzQ3ZWQyMTQ0MjY0MGE5NWVmYzE1MzVjM2IwY2M1NThiZGRlMGNiM2E2OWY0MTA1NDkxMGE2ZTQ0N2ZjYTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.36GJM3fImp4EUw67UV0m-Y0dJ2U1k2zAdtiJzFKdmTM"
+		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/21a5a86b-a13c-49bd-95bd-8aac8aace8f0"
 	},
 	{
 		"repo": "jiwnchoi/Bavisitter",
