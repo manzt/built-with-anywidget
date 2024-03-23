@@ -1,0 +1,206 @@
+[
+	{
+		"repo": "altair-viz/altair",
+		"description": "Declarative statistical visualization library for Python",
+		"imageUrl": "https://raw.githubusercontent.com/altair-viz/altair/main/images/cars_scatter_bar.gif"
+	},
+	{
+		"repo": "koaning/drawdata",
+		"description": "Draw datasets from within Jupyter.",
+		"imageUrl": "https://raw.githubusercontent.com/koaning/drawdata/main/imgs/widget.gif"
+	},
+	{
+		"repo": "uwdata/mosaic",
+		"description": "An extensible framework for linking databases and interactive views.",
+		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/3d5498a6-5db3-4583-9153-bb418a84bbe7"
+	},
+	{
+		"repo": "flekschas/jupyter-scatter",
+		"description": "Interactive 2D scatter plots. Scales to millions of points!",
+		"imageUrl": "https://user-images.githubusercontent.com/932103/223292112-c9ca18b9-bc6b-4c3b-94ac-984960e8f717.gif"
+	},
+	{
+		"repo": "developmentseed/lonboard",
+		"description": "Fast, interactive geospatial vector data visualization in Jupyter.",
+		"imageUrl": "https://developmentseed.org/lonboard/latest/assets/hero-animated.gif"
+	},
+	{
+		"repo": "microsoft/qsharp",
+		"description": "Azure Quantum Development Kit"
+	},
+	{
+		"repo": "opengeos/mapwidget",
+		"description": "Interactive 2D/3D maps using popular JavaScript libraries with bidirectional communication, such as Cesium, Mapbox, MapLibre, Leaflet, and OpenLayers"
+	},
+	{
+		"repo": "kolibril13/jupyter-tldraw",
+		"description": "the very good free whiteboard tldraw in the jupyter output.",
+		"imageUrl": "https://private-user-images.githubusercontent.com/44469195/260029423-8ba7e662-1f35-4e3b-b342-6d9fd3079e22.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjU3NzcsIm5iZiI6MTcxMTIyNTQ3NywicGF0aCI6Ii80NDQ2OTE5NS8yNjAwMjk0MjMtOGJhN2U2NjItMWYzNS00ZTNiLWIzNDItNmQ5ZmQzMDc5ZTIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDIwMjQzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRkNWE3NTEwMWMwZGVhMWI5ZDFhOGFkNGU3NGNmZGVhMmQ3Y2RlOTczMzM4YTIwYTNhZDM0MTQxMzI0NGVhNzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.6DUT7NSdBI2q0paMzFRzBRMbYzDQUU4p0nrw7RHDMfI"
+	},
+	{
+		"repo": "juba/pyobsplot",
+		"description": "Observable Plot in Jupyter notebooks and Quarto documents.",
+		"imageUrl": "https://github.com/juba/pyobsplot/raw/main/doc/screenshots/readme_plot.png"
+	},
+	{
+		"repo": "hms-dbmi/vizarr",
+		"description": "A minimal Zarr-based image viewer.",
+		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/b8388b89-aac5-48af-80be-abb8baef76ae"
+	},
+	{
+		"repo": "higlass/higlass-python",
+		"description": "Python bindings for the HiGlass viewer",
+		"imageUrl": "https://user-images.githubusercontent.com/24403730/159050305-e6a48f03-fba1-4ff7-8eee-2e9c5c40ef88.gif"
+	},
+	{
+		"repo": "OzetteTech/comparative-embedding-visualization",
+		"description": "Compare embedding visualizations with shared labels by their confusion, neighborhoods, and size.",
+		"imageUrl": "https://private-user-images.githubusercontent.com/84813279/237440915-297cbdb9-b6a2-4102-bde9-b14f0ca24a09.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjYwMTYsIm5iZiI6MTcxMTIyNTcxNiwicGF0aCI6Ii84NDgxMzI3OS8yMzc0NDA5MTUtMjk3Y2JkYjktYjZhMi00MTAyLWJkZTktYjE0ZjBjYTI0YTA5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDIwMjgzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA5OWQzYWE5YTliNmJjOWExZTE2YmMwZmI5NjAxYTBlYTAxZGI5NDk0YTI1NTVlMzliNTYxNTViMjM0ZjBhZDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.iwpJVHmRieYzJ9ZlRtBRU-vM9ac9DexlYMQjY4o4poA"
+	},
+	{
+		"repo": "vitessce/vitessce-python",
+		"description": "Python API and Jupyter widget for Vitessce",
+		"imageUrl": "https://user-images.githubusercontent.com/1216518/93337080-a4f8b680-f7f6-11ea-9e53-2c73cc661b94.png"
+	},
+	{
+		"repo": "visdesignlab/persist",
+		"description": "A JupyterLab extension to enable persistent interactive visualizations in JupyterLab notebooks.",
+		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/a2e04093-5157-418e-9ffd-070a8840ca1d"
+	},
+	{
+		"repo": "lakeraai/canica",
+		"description": "A text embedding viewer for the Jupyter environment"
+	},
+	{
+		"repo": "asaboor-gh/ipyslides",
+		"description": "Create Interactive Slides in Jupyter Notebook with all kind of rich content.  https://asaboor-gh.github.io/ipyslides/",
+		"imageUrl": "https://github.com/asaboor-gh/ipyslides/raw/main/slide.png"
+	},
+	{
+		"repo": "superstar54/weas-widget",
+		"description": "A widget to visualize and interact with atomistic structures in Jupyter Notebook",
+		"imageUrl": "https://github.com/superstar54/weas-widget/raw/main/docs/source/_static/images/example-adsorption.gif"
+	},
+	{
+		"repo": "geigr/ipymidi",
+		"description": "Interactive MIDI in Jupyter",
+		"imageUrl": "https://user-images.githubusercontent.com/4160723/290532327-283f5234-2f8c-4b4e-9e59-79b9551f11d0.svg"
+	},
+	{
+		"repo": "davidbrochart/ipytextual",
+		"description": "Jupyter Textual-based Widget"
+	},
+	{
+		"repo": "benbovy/xarray-fancy-repr",
+		"description": "Fancy reprs for Xarray objects in Jupyter notebooks (experimental)"
+	},
+	{
+		"repo": "davidbrochart/ipyscore",
+		"description": "A Jupyter widget for music notation"
+	},
+	{
+		"repo": "jtpio/ipyclipboard",
+		"description": "A simple Jupyter Widget to read and write text from the clipboard."
+	},
+	{
+		"repo": "eodaGmbH/py-maplibregl",
+		"description": "Python bindings for MapLibre GL JS"
+	},
+	{
+		"repo": "kolibril13/ipymafs",
+		"description": "Interactive math react components in jupyter",
+		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/b4290ef9-5ada-45c5-95f2-8281bea9efaf"
+	},
+	{
+		"repo": "niivue/ipyniivue",
+		"description": "A Jupyter Widget for Niivue based on anywidget."
+	},
+	{
+		"repo": "seidlr/ipyreactplayer",
+		"description": "An interactive videoplayer as Ipywidget."
+	},
+	{
+		"repo": "manzt/ipytweakpane",
+		"description": "IPython/Jupyter notebooks module for Tweakpane UI.",
+		"imageUrl": "https://user-images.githubusercontent.com/24403730/203362487-c1b9c676-188e-42f2-a7e4-fd7d1bd43d54.png"
+	},
+	{
+		"repo": "ozekik/ipydeck",
+		"description": "Yet another Jupyter widget for deck.gl",
+		"imageUrl": "https://raw.githubusercontent.com/ozekik/ipydeck/master/assets/screenshot.png"
+	},
+	{
+		"repo": "Jhsmit/ipymolstar",
+		"description": "PDBeMolstar as anywidget",
+		"imageUrl": "https://private-user-images.githubusercontent.com/7881506/308250293-589a94d5-2647-4977-90aa-c886c10cacb9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjY3NTksIm5iZiI6MTcxMTIyNjQ1OSwicGF0aCI6Ii83ODgxNTA2LzMwODI1MDI5My01ODlhOTRkNS0yNjQ3LTQ5NzctOTBhYS1jODg2YzEwY2FjYjkucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDMyMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAzMjNUMjA0MDU5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OTM5Y2RhODBlY2NmYzNkNWJmZmVjYTQ3M2I5YmY1MjdlM2Y4ZDg0OWZjZGE0NTBlMDRmM2UwMjQ5MzRiYWMxOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.5s_EFgxhj4Qz4crlwT29XVmA0uMg0a0QbyQmSrcz0sU"
+	},
+	{
+		"repo": "StarostinV/bactovision",
+		"description": "A jupyter widget for processing bacterial growth images"
+	},
+	{
+		"repo": "cosmograph-org/cosmograph_widget",
+		"description": "A python widget talking to cosmograph JS tool"
+	},
+	{
+		"repo": "juba/pylifemap",
+		"description": "Python package for Lifemap visualizations"
+	},
+	{
+		"repo": "superstar54/qeapp-xps",
+		"description": "A plugin for calculating X-ray Photoelectron Spectroscopy (XPS) spectra.",
+		"imageUrl": "https://private-user-images.githubusercontent.com/11457659/300544281-a8ab265d-08a3-411e-a22c-83ed0840752f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjY4MTUsIm5iZiI6MTcxMTIyNjUxNSwicGF0aCI6Ii8xMTQ1NzY1OS8zMDA1NDQyODEtYThhYjI2NWQtMDhhMy00MTFlLWEyMmMtODNlZDA4NDA3NTJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDIwNDE1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ0YWE5OWE2YThjZjU3MThhMjEzYjA3OTkyNzQyZTM2YzlhN2Y4NzhlNjBjZjRjNDQzZWIzZGM0MGM0NzBiMTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Ik1TewmHgZT8_mEFGPZ0hbghns7AvGeysPE797jYW9Q"
+	},
+	{
+		"repo": "callysto/lesson-plans",
+		"description": "Callysto resources related to lesson plans or lesson planning"
+	},
+	{
+		"repo": "cds-astro/ipyaladin",
+		"description": "An IPython Widget for Aladin Lite",
+		"imageUrl": "https://github.com/cds-astro/ipyaladin/raw/master/assets/ipyaladin-screencast.gif"
+	},
+	{
+		"repo": "IKKEM-Lin/jupyter-antd",
+		"description": "The antd UI for jupyter notebook base on anywidgets"
+	},
+	{
+		"repo": "IKKEM-Lin/jupyter-formily",
+		"description": "Integrates fomily to jupyter notebook, which base on anywidget"
+	},
+	{
+		"repo": "PietroTotis/CoSo",
+		"description": "CoSo is a lifted solver for combinatorics problems expressed in CoLa."
+	},
+	{
+		"repo": "egraphs-good/egglog-python",
+		"description": "Python bindings for the egg-smol rust library"
+	},
+	{
+		"repo": "cosmograph-org/py_cosmograph",
+		"description": "Binder to the cosmograph visual analytics for big graphs"
+	},
+	{
+		"repo": "manzt/ipymario",
+		"description": "A simple anywidget, built from Mike Bostock's Mario chime snippet.",
+		"imageUrl": "https://private-user-images.githubusercontent.com/24403730/311924409-e8befac9-3ce5-4ffc-a9df-3b18479c809a.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjcxMjksIm5iZiI6MTcxMTIyNjgyOSwicGF0aCI6Ii8yNDQwMzczMC8zMTE5MjQ0MDktZThiZWZhYzktM2NlNS00ZmZjLWE5ZGYtM2IxODQ3OWM4MDlhLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDIwNDcwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk2NzBlMjc0MmE2MjFiYmU4NzA1YWE2MmNlOWE2YzM4ZDU1MjEzN2MyNmMwMjM3Nzk4YTY5ZGM2Njc3YjFlMTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.LkzdlYd9K4ramymdqr3GjtBRMKeypvEcsZ90Zeelzcs"
+	},
+	{
+		"repo": "manzt/carbonplan-maps",
+		"description": "A Jupyter Widget for carbonplan maps.",
+		"imageUrl": "https://private-user-images.githubusercontent.com/24403730/253949678-4d35f702-1833-471a-9e11-8c7de2aed289.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjcxNTMsIm5iZiI6MTcxMTIyNjg1MywicGF0aCI6Ii8yNDQwMzczMC8yNTM5NDk2NzgtNGQzNWY3MDItMTgzMy00NzFhLTllMTEtOGM3ZGUyYWVkMjg5LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDIwNDczM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBmMzQ3ZWQyMTQ0MjY0MGE5NWVmYzE1MzVjM2IwY2M1NThiZGRlMGNiM2E2OWY0MTA1NDkxMGE2ZTQ0N2ZjYTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.36GJM3fImp4EUw67UV0m-Y0dJ2U1k2zAdtiJzFKdmTM"
+	},
+	{
+		"repo": "jiwnchoi/Bavisitter",
+		"description": "Babysitting LLMs for Visualization"
+	},
+	{
+		"repo": "john-guerra/navio_jupyter",
+		"description": "A Jupyter widget for navio",
+		"imageUrl": "https://github.com/john-guerra/navio/raw/main/imgs/navio_observable.gif"
+	},
+	{
+		"repo": "tBuLi/kingdon",
+		"description": "A symbolically optimized and pythonic Clifford (geometric) algebra library named after none other than William Kingdon Clifford."
+	}
+]
