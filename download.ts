@@ -1,8 +1,26 @@
 import { z } from "zod";
 import sharp from "sharp";
 
-let AssetSchema = z.object({
+type MimeType = z.infer<typeof AssetSchema>["mimeType"];
+
+function filename(repo: string, mimeType: MimeType) {
+	let ext = mimeType === "image/svg+xml" ? "svg" : mimeType.split("/")[1];
+	return `${repo.replace("/", "__")}.${ext}`;
+}
+
+async function num_pages(gif: Uint8Array) {
+	let img = sharp(new Uint8Array(gif!.buffer));
+	let meta = await img.metadata();
+	return meta.pages ?? 0;
+}
+
+let RepoSchema = z.object({
 	repo: z.string(),
+	description: z.string(),
+	sourceUrl: z.string().optional(),
+});
+
+let AssetSchema = z.object({
 	bytes: z.instanceof(Uint8Array),
 	mimeType: z.enum([
 		"image/gif",
@@ -18,15 +36,59 @@ let AssetSchema = z.object({
 	}),
 });
 
-let repos = JSON.parse(Deno.readTextFileSync("manifest.json"));
+if (import.meta.main) {
+	let repos = z.array(RepoSchema).parse(
+		JSON.parse(Deno.readTextFileSync("manifest.json")),
+	);
+	await Deno.mkdir("assets", { recursive: true });
 
-for (let repo of repos) {
-	if (!repo.sourceUrl) continue;
-	let result = await fetch(repo.imageUrl)
-		.then(async (response) => AssetSchema.parse({
-			...repo,
-			mimeType: response.headers.get("content-type"),
-			bytes: new Uint8Array(await response.arrayBuffer()),
+	let assets = new Map<string, { image: string; gif?: string }>();
+	for (let repo of repos) {
+		if (!repo.sourceUrl) continue;
+		let asset = await fetch(repo.sourceUrl)
+			.then(async (response) =>
+				AssetSchema.parse({
+					mimeType: response.headers.get("content-type"),
+					bytes: new Uint8Array(await response.arrayBuffer()),
+				})
+			);
+
+		switch (asset.mimeType) {
+			case "image/gif": {
+				// save both the gif and the middle page as a jpeg
+				let npages = await num_pages(asset.bytes);
+				// Get the middle page
+				let img = sharp(asset.bytes, {
+					pages: 1,
+					page: Math.floor(npages / 2),
+				});
+				let imgName = filename(repo.repo, "image/jpeg");
+				await img.jpeg().toFile(`assets/${imgName}`);
+				let gifName = filename(repo.repo, asset.mimeType);
+				Deno.writeFileSync(`assets/${gifName}`, asset.bytes);
+				assets.set(repo.repo, { image: imgName, gif: gifName });
+				break;
+			}
+			case "image/png":
+			case "image/svg+xml":
+			case "image/jpeg": {
+				// just save the image
+				let imgName = filename(repo.repo, asset.mimeType);
+				Deno.writeFileSync(`assets/${imgName}`, asset.bytes);
+				assets.set(repo.repo, { image: imgName });
+			}
+		}
+	}
+
+	let completeManifest = repos
+		.map((repo) => ({
+			repo: repo.repo,
+			description: repo.description,
+			sourceUrl: repo.sourceUrl,
+			image: assets.get(repo.repo)?.image,
+			gif: assets.get(repo.repo)?.gif,
 		}));
-	console.log(result);
+
+	let finalManifest = JSON.stringify(completeManifest, null, "\t") + "\n";
+	Deno.writeTextFileSync(`assets/manifest.json`, finalManifest);
 }

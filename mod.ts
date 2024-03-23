@@ -1,12 +1,14 @@
 import { z } from "zod";
 
+type Repo = z.infer<typeof PartialRepoSchema> & { stars: number };
+
 let PartialRepoSchema = z.object({
 	repo: z.string(),
 	description: z.string(),
-	imageUrl: z.string().url().optional(),
+	sourceUrl: z.string().url().optional(),
+	image: z.string().optional(),
+	gif: z.string().optional(),
 });
-
-type Repo = z.infer<typeof PartialRepoSchema> & { stars: number };
 
 let wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -35,7 +37,7 @@ export async function fetch_info(
 }
 
 if (import.meta.main) {
-	let url = new URL("repos.json", import.meta.url);
+	let url = new URL("assets/manifest.json", import.meta.url);
 	let repos = z.array(PartialRepoSchema).parse(
 		await Deno.readTextFile(url).then(JSON.parse),
 	);
@@ -47,10 +49,8 @@ if (import.meta.main) {
 		await wait(300);
 	}
 
-	await Deno.mkdir("assets", { recursive: true });
-
 	await Deno.writeTextFile(
-		new URL("assets/repos-complete.json", import.meta.url),
+		new URL("assets/manifest-complete.json", import.meta.url),
 		JSON.stringify(complete, null, "\t"),
 	);
 }
