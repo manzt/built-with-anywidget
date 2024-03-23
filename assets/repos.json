@@ -55,7 +55,7 @@
 	{
 		"repo": "OzetteTech/comparative-embedding-visualization",
 		"description": "Compare embedding visualizations with shared labels by their confusion, neighborhoods, and size.",
-		"imageUrl": "https://private-user-images.githubusercontent.com/84813279/237440915-297cbdb9-b6a2-4102-bde9-b14f0ca24a09.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjYwMTYsIm5iZiI6MTcxMTIyNTcxNiwicGF0aCI6Ii84NDgxMzI3OS8yMzc0NDA5MTUtMjk3Y2JkYjktYjZhMi00MTAyLWJkZTktYjE0ZjBjYTI0YTA5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDIwMjgzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA5OWQzYWE5YTliNmJjOWExZTE2YmMwZmI5NjAxYTBlYTAxZGI5NDk0YTI1NTVlMzliNTYxNTViMjM0ZjBhZDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.iwpJVHmRieYzJ9ZlRtBRU-vM9ac9DexlYMQjY4o4poA"
+		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/64258627-6f08-44d1-87ea-a86649305b44"
 	},
 	{
 		"repo": "vitessce/vitessce-python",
@@ -132,7 +132,7 @@
 	{
 		"repo": "Jhsmit/ipymolstar",
 		"description": "PDBeMolstar as anywidget",
-		"imageUrl": "https://private-user-images.githubusercontent.com/7881506/308250293-589a94d5-2647-4977-90aa-c886c10cacb9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjY3NTksIm5iZiI6MTcxMTIyNjQ1OSwicGF0aCI6Ii83ODgxNTA2LzMwODI1MDI5My01ODlhOTRkNS0yNjQ3LTQ5NzctOTBhYS1jODg2YzEwY2FjYjkucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDMyMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAzMjNUMjA0MDU5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OTM5Y2RhODBlY2NmYzNkNWJmZmVjYTQ3M2I5YmY1MjdlM2Y4ZDg0OWZjZGE0NTBlMDRmM2UwMjQ5MzRiYWMxOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.5s_EFgxhj4Qz4crlwT29XVmA0uMg0a0QbyQmSrcz0sU"
+		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/7c1acf71-1eea-4801-937c-3b21495ef915"
 	},
 	{
 		"repo": "StarostinV/bactovision",
@@ -148,8 +148,7 @@
 	},
 	{
 		"repo": "superstar54/qeapp-xps",
-		"description": "A plugin for calculating X-ray Photoelectron Spectroscopy (XPS) spectra.",
-		"imageUrl": "https://private-user-images.githubusercontent.com/11457659/300544281-a8ab265d-08a3-411e-a22c-83ed0840752f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjY4MTUsIm5iZiI6MTcxMTIyNjUxNSwicGF0aCI6Ii8xMTQ1NzY1OS8zMDA1NDQyODEtYThhYjI2NWQtMDhhMy00MTFlLWEyMmMtODNlZDA4NDA3NTJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDIwNDE1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ0YWE5OWE2YThjZjU3MThhMjEzYjA3OTkyNzQyZTM2YzlhN2Y4NzhlNjBjZjRjNDQzZWIzZGM0MGM0NzBiMTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Ik1TewmHgZT8_mEFGPZ0hbghns7AvGeysPE797jYW9Q"
+		"description": "A plugin for calculating X-ray Photoelectron Spectroscopy (XPS) spectra."
 	},
 	{
 		"repo": "callysto/lesson-plans",
@@ -183,7 +182,7 @@
 	{
 		"repo": "manzt/ipymario",
 		"description": "A simple anywidget, built from Mike Bostock's Mario chime snippet.",
-		"imageUrl": "https://private-user-images.githubusercontent.com/24403730/311924409-e8befac9-3ce5-4ffc-a9df-3b18479c809a.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMjcxMjksIm5iZiI6MTcxMTIyNjgyOSwicGF0aCI6Ii8yNDQwMzczMC8zMTE5MjQ0MDktZThiZWZhYzktM2NlNS00ZmZjLWE5ZGYtM2IxODQ3OWM4MDlhLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDIwNDcwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk2NzBlMjc0MmE2MjFiYmU4NzA1YWE2MmNlOWE2YzM4ZDU1MjEzN2MyNmMwMjM3Nzk4YTY5ZGM2Njc3YjFlMTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.LkzdlYd9K4ramymdqr3GjtBRMKeypvEcsZ90Zeelzcs"
+		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/0d49ccfb-4628-4269-b763-e20de44c5633"
 	},
 	{
 		"repo": "manzt/carbonplan-maps",
