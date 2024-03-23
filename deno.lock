@@ -2,14 +2,315 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:zod@3.22.4": "npm:zod@3.22.4"
+      "npm:sharp": "npm:sharp@0.33.3",
+      "npm:sharp@0.33.3": "npm:sharp@0.33.3",
+      "npm:zod@3.22.4": "npm:zod@3.22.4",
+      "npm:zod@3.6.0": "npm:zod@3.6.0"
     },
     "npm": {
+      "@emnapi/runtime@1.1.0": {
+        "integrity": "sha512-gCGlE0fJGWalfy+wbFApjhKn6uoSVvopru77IPyxNKkjkaiSx2HxDS7eOYSmo9dcMIhmmIvoxiC3N9TM1c3EaA==",
+        "dependencies": {
+          "tslib": "tslib@2.6.2"
+        }
+      },
+      "@img/sharp-darwin-arm64@0.33.3": {
+        "integrity": "sha512-FaNiGX1MrOuJ3hxuNzWgsT/mg5OHG/Izh59WW2mk1UwYHUwtfbhk5QNKYZgxf0pLOhx9ctGiGa2OykD71vOnSw==",
+        "dependencies": {
+          "@img/sharp-libvips-darwin-arm64": "@img/sharp-libvips-darwin-arm64@1.0.2"
+        }
+      },
+      "@img/sharp-darwin-x64@0.33.3": {
+        "integrity": "sha512-2QeSl7QDK9ru//YBT4sQkoq7L0EAJZA3rtV+v9p8xTKl4U1bUqTIaCnoC7Ctx2kCjQgwFXDasOtPTCT8eCTXvw==",
+        "dependencies": {
+          "@img/sharp-libvips-darwin-x64": "@img/sharp-libvips-darwin-x64@1.0.2"
+        }
+      },
+      "@img/sharp-libvips-darwin-arm64@1.0.2": {
+        "integrity": "sha512-tcK/41Rq8IKlSaKRCCAuuY3lDJjQnYIW1UXU1kxcEKrfL8WR7N6+rzNoOxoQRJWTAECuKwgAHnPvqXGN8XfkHA==",
+        "dependencies": {}
+      },
+      "@img/sharp-libvips-darwin-x64@1.0.2": {
+        "integrity": "sha512-Ofw+7oaWa0HiiMiKWqqaZbaYV3/UGL2wAPeLuJTx+9cXpCRdvQhCLG0IH8YGwM0yGWGLpsF4Su9vM1o6aer+Fw==",
+        "dependencies": {}
+      },
+      "@img/sharp-libvips-linux-arm64@1.0.2": {
+        "integrity": "sha512-x7kCt3N00ofFmmkkdshwj3vGPCnmiDh7Gwnd4nUwZln2YjqPxV1NlTyZOvoDWdKQVDL911487HOueBvrpflagw==",
+        "dependencies": {}
+      },
+      "@img/sharp-libvips-linux-arm@1.0.2": {
+        "integrity": "sha512-iLWCvrKgeFoglQxdEwzu1eQV04o8YeYGFXtfWU26Zr2wWT3q3MTzC+QTCO3ZQfWd3doKHT4Pm2kRmLbupT+sZw==",
+        "dependencies": {}
+      },
+      "@img/sharp-libvips-linux-s390x@1.0.2": {
+        "integrity": "sha512-cmhQ1J4qVhfmS6szYW7RT+gLJq9dH2i4maq+qyXayUSn9/3iY2ZeWpbAgSpSVbV2E1JUL2Gg7pwnYQ1h8rQIog==",
+        "dependencies": {}
+      },
+      "@img/sharp-libvips-linux-x64@1.0.2": {
+        "integrity": "sha512-E441q4Qdb+7yuyiADVi5J+44x8ctlrqn8XgkDTwr4qPJzWkaHwD489iZ4nGDgcuya4iMN3ULV6NwbhRZJ9Z7SQ==",
+        "dependencies": {}
+      },
+      "@img/sharp-libvips-linuxmusl-arm64@1.0.2": {
+        "integrity": "sha512-3CAkndNpYUrlDqkCM5qhksfE+qSIREVpyoeHIU6jd48SJZViAmznoQQLAv4hVXF7xyUB9zf+G++e2v1ABjCbEQ==",
+        "dependencies": {}
+      },
+      "@img/sharp-libvips-linuxmusl-x64@1.0.2": {
+        "integrity": "sha512-VI94Q6khIHqHWNOh6LLdm9s2Ry4zdjWJwH56WoiJU7NTeDwyApdZZ8c+SADC8OH98KWNQXnE01UdJ9CSfZvwZw==",
+        "dependencies": {}
+      },
+      "@img/sharp-linux-arm64@0.33.3": {
+        "integrity": "sha512-Zf+sF1jHZJKA6Gor9hoYG2ljr4wo9cY4twaxgFDvlG0Xz9V7sinsPp8pFd1XtlhTzYo0IhDbl3rK7P6MzHpnYA==",
+        "dependencies": {
+          "@img/sharp-libvips-linux-arm64": "@img/sharp-libvips-linux-arm64@1.0.2"
+        }
+      },
+      "@img/sharp-linux-arm@0.33.3": {
+        "integrity": "sha512-Q7Ee3fFSC9P7vUSqVEF0zccJsZ8GiiCJYGWDdhEjdlOeS9/jdkyJ6sUSPj+bL8VuOYFSbofrW0t/86ceVhx32w==",
+        "dependencies": {
+          "@img/sharp-libvips-linux-arm": "@img/sharp-libvips-linux-arm@1.0.2"
+        }
+      },
+      "@img/sharp-linux-s390x@0.33.3": {
+        "integrity": "sha512-vFk441DKRFepjhTEH20oBlFrHcLjPfI8B0pMIxGm3+yilKyYeHEVvrZhYFdqIseSclIqbQ3SnZMwEMWonY5XFA==",
+        "dependencies": {
+          "@img/sharp-libvips-linux-s390x": "@img/sharp-libvips-linux-s390x@1.0.2"
+        }
+      },
+      "@img/sharp-linux-x64@0.33.3": {
+        "integrity": "sha512-Q4I++herIJxJi+qmbySd072oDPRkCg/SClLEIDh5IL9h1zjhqjv82H0Seupd+q2m0yOfD+/fJnjSoDFtKiHu2g==",
+        "dependencies": {
+          "@img/sharp-libvips-linux-x64": "@img/sharp-libvips-linux-x64@1.0.2"
+        }
+      },
+      "@img/sharp-linuxmusl-arm64@0.33.3": {
+        "integrity": "sha512-qnDccehRDXadhM9PM5hLvcPRYqyFCBN31kq+ErBSZtZlsAc1U4Z85xf/RXv1qolkdu+ibw64fUDaRdktxTNP9A==",
+        "dependencies": {
+          "@img/sharp-libvips-linuxmusl-arm64": "@img/sharp-libvips-linuxmusl-arm64@1.0.2"
+        }
+      },
+      "@img/sharp-linuxmusl-x64@0.33.3": {
+        "integrity": "sha512-Jhchim8kHWIU/GZ+9poHMWRcefeaxFIs9EBqf9KtcC14Ojk6qua7ghKiPs0sbeLbLj/2IGBtDcxHyjCdYWkk2w==",
+        "dependencies": {
+          "@img/sharp-libvips-linuxmusl-x64": "@img/sharp-libvips-linuxmusl-x64@1.0.2"
+        }
+      },
+      "@img/sharp-wasm32@0.33.3": {
+        "integrity": "sha512-68zivsdJ0koE96stdUfM+gmyaK/NcoSZK5dV5CAjES0FUXS9lchYt8LAB5rTbM7nlWtxaU/2GON0HVN6/ZYJAQ==",
+        "dependencies": {
+          "@emnapi/runtime": "@emnapi/runtime@1.1.0"
+        }
+      },
+      "@img/sharp-win32-ia32@0.33.3": {
+        "integrity": "sha512-CyimAduT2whQD8ER4Ux7exKrtfoaUiVr7HG0zZvO0XTFn2idUWljjxv58GxNTkFb8/J9Ub9AqITGkJD6ZginxQ==",
+        "dependencies": {}
+      },
+      "@img/sharp-win32-x64@0.33.3": {
+        "integrity": "sha512-viT4fUIDKnli3IfOephGnolMzhz5VaTvDRkYqtZxOMIoMQ4MrAziO7pT1nVnOt2FAm7qW5aa+CCc13aEY6Le0g==",
+        "dependencies": {}
+      },
+      "color-convert@2.0.1": {
+        "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
+        "dependencies": {
+          "color-name": "color-name@1.1.4"
+        }
+      },
+      "color-name@1.1.4": {
+        "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
+        "dependencies": {}
+      },
+      "color-string@1.9.1": {
+        "integrity": "sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==",
+        "dependencies": {
+          "color-name": "color-name@1.1.4",
+          "simple-swizzle": "simple-swizzle@0.2.2"
+        }
+      },
+      "color@4.2.3": {
+        "integrity": "sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==",
+        "dependencies": {
+          "color-convert": "color-convert@2.0.1",
+          "color-string": "color-string@1.9.1"
+        }
+      },
+      "detect-libc@2.0.3": {
+        "integrity": "sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==",
+        "dependencies": {}
+      },
+      "is-arrayish@0.3.2": {
+        "integrity": "sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==",
+        "dependencies": {}
+      },
+      "lru-cache@6.0.0": {
+        "integrity": "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==",
+        "dependencies": {
+          "yallist": "yallist@4.0.0"
+        }
+      },
+      "semver@7.6.0": {
+        "integrity": "sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==",
+        "dependencies": {
+          "lru-cache": "lru-cache@6.0.0"
+        }
+      },
+      "sharp@0.33.3": {
+        "integrity": "sha512-vHUeXJU1UvlO/BNwTpT0x/r53WkLUVxrmb5JTgW92fdFCFk0ispLMAeu/jPO2vjkXM1fYUi3K7/qcLF47pwM1A==",
+        "dependencies": {
+          "@img/sharp-darwin-arm64": "@img/sharp-darwin-arm64@0.33.3",
+          "@img/sharp-darwin-x64": "@img/sharp-darwin-x64@0.33.3",
+          "@img/sharp-libvips-darwin-arm64": "@img/sharp-libvips-darwin-arm64@1.0.2",
+          "@img/sharp-libvips-darwin-x64": "@img/sharp-libvips-darwin-x64@1.0.2",
+          "@img/sharp-libvips-linux-arm": "@img/sharp-libvips-linux-arm@1.0.2",
+          "@img/sharp-libvips-linux-arm64": "@img/sharp-libvips-linux-arm64@1.0.2",
+          "@img/sharp-libvips-linux-s390x": "@img/sharp-libvips-linux-s390x@1.0.2",
+          "@img/sharp-libvips-linux-x64": "@img/sharp-libvips-linux-x64@1.0.2",
+          "@img/sharp-libvips-linuxmusl-arm64": "@img/sharp-libvips-linuxmusl-arm64@1.0.2",
+          "@img/sharp-libvips-linuxmusl-x64": "@img/sharp-libvips-linuxmusl-x64@1.0.2",
+          "@img/sharp-linux-arm": "@img/sharp-linux-arm@0.33.3",
+          "@img/sharp-linux-arm64": "@img/sharp-linux-arm64@0.33.3",
+          "@img/sharp-linux-s390x": "@img/sharp-linux-s390x@0.33.3",
+          "@img/sharp-linux-x64": "@img/sharp-linux-x64@0.33.3",
+          "@img/sharp-linuxmusl-arm64": "@img/sharp-linuxmusl-arm64@0.33.3",
+          "@img/sharp-linuxmusl-x64": "@img/sharp-linuxmusl-x64@0.33.3",
+          "@img/sharp-wasm32": "@img/sharp-wasm32@0.33.3",
+          "@img/sharp-win32-ia32": "@img/sharp-win32-ia32@0.33.3",
+          "@img/sharp-win32-x64": "@img/sharp-win32-x64@0.33.3",
+          "color": "color@4.2.3",
+          "detect-libc": "detect-libc@2.0.3",
+          "semver": "semver@7.6.0"
+        }
+      },
+      "simple-swizzle@0.2.2": {
+        "integrity": "sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==",
+        "dependencies": {
+          "is-arrayish": "is-arrayish@0.3.2"
+        }
+      },
+      "tslib@2.6.2": {
+        "integrity": "sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==",
+        "dependencies": {}
+      },
+      "yallist@4.0.0": {
+        "integrity": "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==",
+        "dependencies": {}
+      },
       "zod@3.22.4": {
         "integrity": "sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==",
+        "dependencies": {}
+      },
+      "zod@3.6.0": {
+        "integrity": "sha512-4bqNkZMEpFM/UqmFFCeEruOsRyjGMmTTP0eddl6aUEmg6CdL+rXNS7HwhrnazKwl1lnEMqesF54G32dg+Y3N9A==",
         "dependencies": {}
       }
     }
   },
-  "remote": {}
+  "redirects": {
+    "https://deno.land/x/imagemagick_deno/mod.ts": "https://deno.land/x/imagemagick_deno@0.0.26/mod.ts"
+  },
+  "remote": {
+    "https://deno.land/x/imagemagick_deno@0.0.26/mod.ts": "2ed72fb5adaf56ee8b850ddc7da91456700a36ed1b149fa8fd70be5adfa51f24",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/alpha-option.ts": "749a9f3309e491ec09a1d6bc50ce95d9733887d9f57c6863c4ff1c7e9610227b",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/auto-threshold-method.ts": "bb08a00046137e441930e56190b6db10c5fe657cb0a6142cd565a40b1c4250a2",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/byte-array.ts": "bb00cd720dcea06b0d41a500a02e6ad6ace6d4e6fcab06dc943b85bfe0773493",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/channel-statistics.ts": "503871a48800436cbd02baee45f5e55aa7a0d95c3cd36e1111cf36dda946f43c",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/channels.ts": "03e46f10df374d002cc39d10a6bc93c68deb4e1158bef1107234e10a192b05c7",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/chromaticity-info.ts": "192bbfff68cafe77ec5b6439e67f00a96d292e1bd4f482e29f2a32e519121fb1",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/class-type.ts": "11970b07ecdd97798ea9ff45b080e77f6711595cef73c678e0393e21c765de05",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/color-space.ts": "3d9a60f3a8bfefea8d9525572d7bd6214530c69688e8799dceb492b7797d1d0a",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/color-type.ts": "d6a588272044ad171bfd98ea13fb510fce19b8afc4cafdbaadc2a562fbcc380e",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/composite-operator.ts": "f4b5046415c5965d53b17a9e441a42d87e8477b7c158704abd417d6ac10f3ea0",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/compression-method.ts": "5bb7b8884eadcd91e6ad6016d1a644bdb5022020cdc58df1be3d38f742054ae1",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/defines/define.ts": "645fb3a06424ed750250212ac8762ba2ea97c4e4fdbda8aedf21734cbaf4833c",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/defines/defines-creator.ts": "876b7215bb6523cee562bcdf95cdd20cce33dd118db9f61d3d9e6305d5cfa631",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/defines/defines.ts": "fc8e12475e11a30f9f6f9c2b5e2fba94b01d65135654b97694da915d40fae2fe",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/defines/magick-define.ts": "07e9e7fab4ea23f06f584163a99e0007ac1d1f3379ab4a872f1ddd555dd8ddd1",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/density-unit.ts": "4e5a451dde11303aaf99f7f5f9c1409f2d5399e0678a4ab589a33e9757d04491",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/density.ts": "b12b953f53900a2182563963fc08074453fb7bff387c06a7e04a8b26045be91e",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/disposable.ts": "4e30ceedea5c7829153ded68929cc206a303be220a560bb27319b607ee68c4a7",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/distort-method.ts": "13819e00ccb6a636af9ece5d11dfce9451e578d46c94e1f528b0ae5da7721985",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-color.ts": "fe3785761844f09a2c8bfda1821580c18706d986b1e7619dd984db6d33f3093a",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-fill-color.ts": "566325e1b1eee1e4d74a97c7f0cfbd5cc1c3dbab9a39e8820b3e2555280fe633",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-fill-opacity.ts": "a8bfce5d256ed1f296b4e57ae49035dad0baadec57b7ee68731494530b5df816",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-font-point-size.ts": "ca4f41670186b13c1195eef74764af1ea00592b9faad5970d7867b3cb47630c3",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-font.ts": "6a332ab99030ffe9fffd83704ba3e655649e48f026ef78dfb04d0bb1f99416bf",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-gravity.ts": "184729aecc6d700a81eec2b8157b27b77f28c4188eb0f0337446b933e3857dbe",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-rectangle.ts": "c6b1bb4b81a7e66e59a9338d45816a8471d951a6583567df68b31d3fde5ae6e0",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-round-rectangle.ts": "7cd7e90d6d5902abee81061c7ce5919a50ef340d67d984f1ab5eb15ba22683c8",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-text-alignment.ts": "e657d2b012966f653b13890f4cdcb54e2b9d3c28dd78f40205e02ffc4b4942cf",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-text-antialias.ts": "f3f3ab526c2b06968b7f16bd9a705f2163ee4c022074fb763ec269218c2f773c",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-text-decoration.ts": "d6676422074bde0c86c5a2787822d8475936b56da4c02bd47eb10044d48f29bd",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-text-interline-spacing.ts": "8ae3cc5892c605a3ee7ae91d1c41c8f90a7c0d8c7a7e5ec50746047971cd0fda",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-text-interword-spacing.ts": "a5b5b5d2081e87552e1b45b2fc734da7885a71a006bd69d8b7f08ed569a37788",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-text-kerning.ts": "fb719d6a9ce610a859f43d63eada784510f8e71ace6d57a6ccd43cf504c71103",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-text-under-color.ts": "21a7690993e86c22450cda3334092c12ba34dada09817745ea2e685aebb1b1a9",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable-text.ts": "f13d014b6f8b06e666b701b3860864711d0a0f942c1a30940af939705e72e5ce",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawable.ts": "61b40233ea3c28664c2f8dfd8d794772d8a7a779f4228060efd41b0d44762521",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/drawables/drawing-wand.ts": "fa759f55b7a676deb8c0f9af61a074493eaed86bf527ce0a1b7637229f9dc482",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/endian.ts": "5c36e4c104dd79760a96d1a7e759fbb04907b40d4cbfd30a25d3ef25bf7f63ed",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/error-metric.ts": "fafe44d95312b0e9dd6e5d6d3efd536764468a4b80e3dc3d7d7efc33a40fb871",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/evaluate-operator.ts": "c05d51cb193d95ce0432dee914465cbafc35026ea1102cc48f431571bfb67260",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/filter-type.ts": "face0109ae9e56125b778a8842384031d6e0bd688dfcf96c0861f2fd8bb27225",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/formats/dng/dng-output-color.ts": "13533caccea31a8e6cd960df47c1b608f89a786d51e9c4b3b869ca40eb01c5a8",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/formats/dng/dng-read-defines.ts": "73d3fdc79c0f37ea3b2681f4e159cd927c25cb0801cc43905a4331171062f6c8",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/gif-dispose-method.ts": "841f730e6c282d81296111c32208614adb9c96cd700c76df4eae71140458f9d5",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/gravity.ts": "ed99d33e3775c510c0a29fb330ca5ac9445e41dd3644507186c25cc32eb8634a",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/image-magick.ts": "a86eda53f0d5a9054883b63fe48957d01a385eda57370e3dc080a7cc5f127e70",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/index.ts": "659f1e0c9efa82d49f8bc53d610968e065bec4223538d92e9c55c5e4157dbd96",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/interlace.ts": "7b75a93d79311bcb5fe6d749f91d2bf122f2443a771dff721c11756e823dc445",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/internal/disposable-array.ts": "048f80ffee94ccb37437961e7bcaa57ee0b0bd95a64423257010a8eeb18e9fae",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/internal/disposable.ts": "4c492c40df42590cd3400f415054ea942311918b8f4cdd90a8e00fcadd9a76d8",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/internal/exception/exception.ts": "2c1e1d5f6df4fcaef50403ed18f5ebdf560a5e764944d569db406e97f76f2aae",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/internal/geometry-flags.ts": "56bbc3f668db2e67f607cd1c08e07f51ded80a8c402efb0b6cd4ad98d0f69d19",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/internal/magick-rectangle.ts": "ffffcd9ebffe20f871396af22c9f5acb332b5d503a5b21200a94e1e61e4e68b3",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/internal/native/array.ts": "99fa112bde643aceda481db90be21d6264c23074cf77ad4a7fee41208ba75dcd",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/internal/native/string.ts": "a8edad35a243f76ef98cf387580bbf771790d1b1d8299d77ea1731aa75c2c158",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/internal/pointer/pointer.ts": "821ad62e6664c9e7dbe8c9d1d1f79ff4d3a76b6cf64d1a2ed943f03516fb2e8a",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/internal/string-info.ts": "6121081f0382fdfe259bb6c95655b1626cc68af778ad91af437daa8c55965575",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/kernel.ts": "57b8eead1ed75b953332d6d101c776f50f17d60f70c79c93768e664cd5bbc4a7",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/log-event-types.ts": "91dba33b2a47dff56489d76791002a453c8387ccd2bdfba58a845f1f61fb22da",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/log-event.ts": "e365ae40d58d7c1e2d7611aa4e63d0478fb80b4ac233a844235ab3cc42a92ddc",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/magick-color.ts": "6e849e94f3183d86f44d55f4646af394d0d3573fbce8b26b6d6bfbda03dcaf5c",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/magick-colors.ts": "c3a4cdbbca0ebce9386ae71f835118847d8770573efcb63a35c54242aa156f90",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/magick-error-severity.ts": "160e5f07bad67542c9c95a8ec61e70f294333bf7f3c463419dc4fadfacdbdbf6",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/magick-error.ts": "5a515e203373ef48903bda51635e04f232bf3144eaee48c66d65df1e705346d4",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/magick-format-info.ts": "8c3ae6ca748d18ae69e33756d2cf64219971350a856407861a0bf7bc119909a6",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/magick-format.ts": "4d7d5ad6ba825c17a75f964ba5d4ca142b9642e66ddf9adb9a0e71bf93ff89d9",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/magick-geometry.ts": "2ce766f7d4338484fed3fd9b25d4ec1ccd77f89d299db8391e048f77708f8245",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/magick-image-collection.ts": "aac08ac15396d6d371753989890125cd36d1e9c30e7676de1c2f08fdbe5d581a",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/magick-image.ts": "57846cd9f4a9a7b0580b44af2fd9231485b4e019c7ed1165ded4b89c846f0950",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/magick.ts": "1fd977495964df2b62aee25fce80f26c8964298375b0d6d30fcdf01266cf5289",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/morphology-method.ts": "0f35a6165588d01764900aaa80b8087c5af3f42af6d4dcbeaea9d03f28826e9c",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/native-instance.ts": "791c1dc7459d0daf53fd385d255edb9d84869edc2943cd1ff3b4b7c34aeeffb0",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/orientation-type.ts": "a5c48feec25d432e5c3ad3ed76c929a7960836d3ab1012525c0f7883e4f46c30",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/paint-method.ts": "0178827b90549bf587e8ae9e2757cb96607b1fffa5c05d0534a8de136a346d29",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/percentage.ts": "00240337512949c97e407b006cdd025af5fc6db600adce9ca6193ab61e326291",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/pixel-channel.ts": "1a6943107a0c9b73757b08b4e41bd72227fec2dbb29f7fe5871257abcf541fa1",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/pixel-intensity-method.ts": "878744cbe8c1eb6198406a7a4c0655ecf3f0d1ae81b287b4b2bec031d22c7c07",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/pixel-interpolate-method.ts": "d2c62675acb5d8fffca3e2c91c9a35bfebec62f2424268e5e240f9f17f57d356",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/pixels/pixel-collection.ts": "e44aa8ebff8635d3959a20ffa9a545ce5df2dc2a8806f6b0d1d0092e185577f7",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/point.ts": "f664938d0f39eadd41fe5eb8ca81c52b59a7f7138539afea3ddc863d25a4a935",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/primary-info.ts": "87d9588a4ba37d0399e5c80fa7cbd602ed86ee544f6aeeab2f6bbe1ac366acef",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/profiles/image-profile.ts": "ea1bb6406430a03cf9263a40260fcd8f99bcc14fa3629206fcbcd2679c94b4a2",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/quantum.ts": "7e92f9cf73fc6ec89df48ab4c462339fad580f0b6a1e1009d3c5a5cb599dc3ed",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/settings/distort-settings.ts": "cdb352260b90a140191c222bafde0740114062822400bdf89709bef1c2f40563",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/settings/drawing-settings.ts": "c5191eff30944c7a6047dfdd4d6a6714cbd3e0154c4942bb53bfa25acc3399b2",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/settings/magick-read-settings.ts": "d5e83efd74ff563146c5c074cefeead82e07763c0e75d271c6f1ba9f1fca3b63",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/settings/magick-settings.ts": "257b5e8991df4e1daf363097c27fb0249e7d22516d1d935f7dd0407351c26c8c",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/settings/montage-settings.ts": "db5dc688e2165b1a5501b6f2175c0453f9a1c435c6d1d20be657ddf26af2bb14",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/settings/morphology-settings.ts": "ca9dae2ac683a815d372ae144cdda5433540bd009affeb760cd34b394ff782dc",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/settings/native-drawing-settings.ts": "a69579abe2600a8ae13484f0abee16ec17d4c31213e95fe0fb9b581ee434af64",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/settings/native-magick-settings.ts": "fa0b0f6721ef96a71e4a0ceea987649f681c1e9cf6f1a2bdea5acb8388e6a6a7",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/settings/native-montage-settings.ts": "5b0c810053730ba63a6603fe4109c09ce02d3dd9f5a04ba1070094cb69a92433",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/statistics.ts": "a9122f555b565d9869dcc9070d77febc54f2e12324932c6b8619e1a94b599885",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/text-alignment.ts": "c4ba89bb5bafa88a19fb57cb0241d24670a5c3a22d186a934764614a59b665b6",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/text-decoration.ts": "89bdd053d74685d1c727a696527089c45af3ce9bff3c058673b63e02612e36c3",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/virtual-pixel-method.ts": "ae2f0520e05b382299e4d41f4d7e2c67baf727ef7c816037e601c978948b1451",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/wasm/magick.ts": "b5ec7d6c3c7379f8f9ba0c23238f7024aa35f3a15edb2d1cbca4ccc44a186ac9",
+    "https://deno.land/x/imagemagick_deno@0.0.26/src/wasm/magick_native.js": "ce63e9894f66443624d09f8d9524d3c985e4174d6848b0e0c77a09d5d5b4759e"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:sharp@0.33.3",
+      "npm:zod@3.6.0"
+    ]
+  }
 }

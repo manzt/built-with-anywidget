@@ -2,27 +2,27 @@
 	{
 		"repo": "altair-viz/altair",
 		"description": "Declarative statistical visualization library for Python",
-		"imageUrl": "https://raw.githubusercontent.com/altair-viz/altair/main/images/cars_scatter_bar.gif"
+		"sourceUrl": "https://raw.githubusercontent.com/altair-viz/altair/main/images/cars_scatter_bar.gif"
 	},
 	{
 		"repo": "koaning/drawdata",
 		"description": "Draw datasets from within Jupyter.",
-		"imageUrl": "https://raw.githubusercontent.com/koaning/drawdata/main/imgs/widget.gif"
+		"sourceUrl": "https://raw.githubusercontent.com/koaning/drawdata/main/imgs/widget.gif"
 	},
 	{
 		"repo": "uwdata/mosaic",
 		"description": "An extensible framework for linking databases and interactive views.",
-		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/3d5498a6-5db3-4583-9153-bb418a84bbe7"
+		"sourceUrl": "https://github.com/manzt/anywidget/assets/24403730/3d5498a6-5db3-4583-9153-bb418a84bbe7"
 	},
 	{
 		"repo": "flekschas/jupyter-scatter",
 		"description": "Interactive 2D scatter plots. Scales to millions of points!",
-		"imageUrl": "https://user-images.githubusercontent.com/932103/223292112-c9ca18b9-bc6b-4c3b-94ac-984960e8f717.gif"
+		"sourceUrl": "https://user-images.githubusercontent.com/932103/223292112-c9ca18b9-bc6b-4c3b-94ac-984960e8f717.gif"
 	},
 	{
 		"repo": "developmentseed/lonboard",
 		"description": "Fast, interactive geospatial vector data visualization in Jupyter.",
-		"imageUrl": "https://developmentseed.org/lonboard/latest/assets/hero-animated.gif"
+		"sourceUrl": "https://developmentseed.org/lonboard/latest/assets/hero-animated.gif"
 	},
 	{
 		"repo": "microsoft/qsharp",
@@ -35,37 +35,37 @@
 	{
 		"repo": "kolibril13/jupyter-tldraw",
 		"description": "the very good free whiteboard tldraw in the jupyter output.",
-		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/df925f82-c1fd-4a12-9587-1ad8671d06cc"
+		"sourceUrl": "https://github.com/manzt/anywidget/assets/24403730/df925f82-c1fd-4a12-9587-1ad8671d06cc"
 	},
 	{
 		"repo": "juba/pyobsplot",
 		"description": "Observable Plot in Jupyter notebooks and Quarto documents.",
-		"imageUrl": "https://github.com/juba/pyobsplot/raw/main/doc/screenshots/readme_plot.png"
+		"sourceUrl": "https://github.com/juba/pyobsplot/raw/main/doc/screenshots/readme_plot.png"
 	},
 	{
 		"repo": "hms-dbmi/vizarr",
 		"description": "A minimal Zarr-based image viewer.",
-		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/b8388b89-aac5-48af-80be-abb8baef76ae"
+		"sourceUrl": "https://github.com/manzt/anywidget/assets/24403730/b8388b89-aac5-48af-80be-abb8baef76ae"
 	},
 	{
 		"repo": "higlass/higlass-python",
 		"description": "Python bindings for the HiGlass viewer",
-		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/0b261986-e249-4e78-8596-70556580346d"
+		"sourceUrl": "https://github.com/manzt/anywidget/assets/24403730/0b261986-e249-4e78-8596-70556580346d"
 	},
 	{
 		"repo": "OzetteTech/comparative-embedding-visualization",
 		"description": "Compare embedding visualizations with shared labels by their confusion, neighborhoods, and size.",
-		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/64258627-6f08-44d1-87ea-a86649305b44"
+		"sourceUrl": "https://github.com/manzt/anywidget/assets/24403730/64258627-6f08-44d1-87ea-a86649305b44"
 	},
 	{
 		"repo": "vitessce/vitessce-python",
 		"description": "Python API and Jupyter widget for Vitessce",
-		"imageUrl": "https://user-images.githubusercontent.com/1216518/93337080-a4f8b680-f7f6-11ea-9e53-2c73cc661b94.png"
+		"sourceUrl": "https://user-images.githubusercontent.com/1216518/93337080-a4f8b680-f7f6-11ea-9e53-2c73cc661b94.png"
 	},
 	{
 		"repo": "visdesignlab/persist",
 		"description": "A JupyterLab extension to enable persistent interactive visualizations in JupyterLab notebooks.",
-		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/a2e04093-5157-418e-9ffd-070a8840ca1d"
+		"sourceUrl": "https://github.com/manzt/anywidget/assets/24403730/a2e04093-5157-418e-9ffd-070a8840ca1d"
 	},
 	{
 		"repo": "lakeraai/canica",
@@ -74,17 +74,17 @@
 	{
 		"repo": "asaboor-gh/ipyslides",
 		"description": "Create Interactive Slides in Jupyter Notebook with all kind of rich content.  https://asaboor-gh.github.io/ipyslides/",
-		"imageUrl": "https://github.com/asaboor-gh/ipyslides/raw/main/slide.png"
+		"sourceUrl": "https://github.com/asaboor-gh/ipyslides/raw/main/slide.png"
 	},
 	{
 		"repo": "superstar54/weas-widget",
 		"description": "A widget to visualize and interact with atomistic structures in Jupyter Notebook",
-		"imageUrl": "https://github.com/superstar54/weas-widget/raw/main/docs/source/_static/images/example-adsorption.gif"
+		"sourceUrl": "https://github.com/superstar54/weas-widget/raw/main/docs/source/_static/images/example-adsorption.gif"
 	},
 	{
 		"repo": "geigr/ipymidi",
 		"description": "Interactive MIDI in Jupyter",
-		"imageUrl": "https://user-images.githubusercontent.com/4160723/290532327-283f5234-2f8c-4b4e-9e59-79b9551f11d0.svg"
+		"sourceUrl": "https://user-images.githubusercontent.com/4160723/290532327-283f5234-2f8c-4b4e-9e59-79b9551f11d0.svg"
 	},
 	{
 		"repo": "davidbrochart/ipytextual",
@@ -109,7 +109,7 @@
 	{
 		"repo": "kolibril13/ipymafs",
 		"description": "Interactive math react components in jupyter",
-		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/b4290ef9-5ada-45c5-95f2-8281bea9efaf"
+		"sourceUrl": "https://github.com/manzt/anywidget/assets/24403730/b4290ef9-5ada-45c5-95f2-8281bea9efaf"
 	},
 	{
 		"repo": "niivue/ipyniivue",
@@ -122,17 +122,17 @@
 	{
 		"repo": "manzt/ipytweakpane",
 		"description": "IPython/Jupyter notebooks module for Tweakpane UI.",
-		"imageUrl": "https://user-images.githubusercontent.com/24403730/203362487-c1b9c676-188e-42f2-a7e4-fd7d1bd43d54.png"
+		"sourceUrl": "https://user-images.githubusercontent.com/24403730/203362487-c1b9c676-188e-42f2-a7e4-fd7d1bd43d54.png"
 	},
 	{
 		"repo": "ozekik/ipydeck",
 		"description": "Yet another Jupyter widget for deck.gl",
-		"imageUrl": "https://raw.githubusercontent.com/ozekik/ipydeck/master/assets/screenshot.png"
+		"sourceUrl": "https://raw.githubusercontent.com/ozekik/ipydeck/master/assets/screenshot.png"
 	},
 	{
 		"repo": "Jhsmit/ipymolstar",
 		"description": "PDBeMolstar as anywidget",
-		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/7c1acf71-1eea-4801-937c-3b21495ef915"
+		"sourceUrl": "https://github.com/manzt/anywidget/assets/24403730/7c1acf71-1eea-4801-937c-3b21495ef915"
 	},
 	{
 		"repo": "StarostinV/bactovision",
@@ -157,7 +157,7 @@
 	{
 		"repo": "cds-astro/ipyaladin",
 		"description": "An IPython Widget for Aladin Lite",
-		"imageUrl": "https://github.com/cds-astro/ipyaladin/raw/master/assets/ipyaladin-screencast.gif"
+		"sourceUrl": "https://github.com/cds-astro/ipyaladin/raw/master/assets/ipyaladin-screencast.gif"
 	},
 	{
 		"repo": "IKKEM-Lin/jupyter-antd",
@@ -182,12 +182,12 @@
 	{
 		"repo": "manzt/ipymario",
 		"description": "A simple anywidget, built from Mike Bostock's Mario chime snippet.",
-		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/0d49ccfb-4628-4269-b763-e20de44c5633"
+		"sourceUrl": "https://github.com/manzt/anywidget/assets/24403730/0d49ccfb-4628-4269-b763-e20de44c5633"
 	},
 	{
 		"repo": "manzt/carbonplan-maps",
 		"description": "A Jupyter Widget for carbonplan maps.",
-		"imageUrl": "https://github.com/manzt/anywidget/assets/24403730/21a5a86b-a13c-49bd-95bd-8aac8aace8f0"
+		"sourceUrl": "https://github.com/manzt/anywidget/assets/24403730/21a5a86b-a13c-49bd-95bd-8aac8aace8f0"
 	},
 	{
 		"repo": "jiwnchoi/Bavisitter",
@@ -196,7 +196,7 @@
 	{
 		"repo": "john-guerra/navio_jupyter",
 		"description": "A Jupyter widget for navio",
-		"imageUrl": "https://github.com/john-guerra/navio/raw/main/imgs/navio_observable.gif"
+		"sourceUrl": "https://github.com/john-guerra/navio/raw/main/imgs/navio_observable.gif"
 	},
 	{
 		"repo": "tBuLi/kingdon",

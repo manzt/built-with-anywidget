@@ -1,4 +1,4 @@
-import { z } from "npm:zod@3.22.4";
+import { z } from "zod";
 
 let PartialRepoSchema = z.object({
 	repo: z.string(),
@@ -35,7 +35,7 @@ export async function fetch_info(
 }
 
 if (import.meta.main) {
-	let url = new URL("assets/repos.json", import.meta.url);
+	let url = new URL("repos.json", import.meta.url);
 	let repos = z.array(PartialRepoSchema).parse(
 		await Deno.readTextFile(url).then(JSON.parse),
 	);
@@ -46,6 +46,8 @@ if (import.meta.main) {
 		complete.push({ ...repo, stars: info.stars });
 		await wait(300);
 	}
+
+	await Deno.mkdir("assets", { recursive: true });
 
 	await Deno.writeTextFile(
 		new URL("assets/repos-complete.json", import.meta.url),
