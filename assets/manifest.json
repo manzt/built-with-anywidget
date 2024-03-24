@@ -93,7 +93,7 @@
 	},
 	{
 		"repo": "asaboor-gh/ipyslides",
-		"description": "Create Interactive Slides in Jupyter Notebook with all kind of rich content.  https://asaboor-gh.github.io/ipyslides/",
+		"description": "Create Interactive Slides in Jupyter Notebook with all kind of rich content.",
 		"sourceUrl": "https://github.com/asaboor-gh/ipyslides/raw/main/slide.png",
 		"image": "asaboor-gh__ipyslides.png"
 	},
