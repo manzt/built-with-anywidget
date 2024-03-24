@@ -18,8 +18,11 @@ let RepoSchema = z.object({
 	repo: z.string(),
 	description: z.string(),
 	sourceUrl: z.string().optional(),
+	image: z.string().optional(),
+	gif: z.string().optional(),
 });
 
+type Asset = z.infer<typeof AssetSchema>;
 let AssetSchema = z.object({
 	bytes: z.instanceof(Uint8Array),
 	mimeType: z.enum([
@@ -38,20 +41,35 @@ let AssetSchema = z.object({
 
 if (import.meta.main) {
 	let repos = z.array(RepoSchema).parse(
-		JSON.parse(Deno.readTextFileSync("manifest.json")),
+		JSON.parse(Deno.readTextFileSync("assets/manifest.json")),
 	);
 	await Deno.mkdir("assets", { recursive: true });
 
 	let assets = new Map<string, { image: string; gif?: string }>();
 	for (let repo of repos) {
-		if (!repo.sourceUrl) continue;
-		let asset = await fetch(repo.sourceUrl)
-			.then(async (response) =>
-				AssetSchema.parse({
-					mimeType: response.headers.get("content-type"),
-					bytes: new Uint8Array(await response.arrayBuffer()),
-				})
-			);
+		// Already downloaded and converted
+		if (repo.gif && repo.image) {
+			continue;
+		}
+
+		let asset: Asset;
+		if (repo.gif && !repo.image) {
+			asset = {
+				mimeType: "image/gif",
+				bytes: Deno.readFileSync(`assets/${repo.gif}`),
+			};
+		} else if (repo.sourceUrl) {
+			asset = await fetch(repo.sourceUrl)
+				.then(async (response) =>
+					AssetSchema.parse({
+						mimeType: response.headers.get("content-type"),
+						bytes: new Uint8Array(await response.arrayBuffer()),
+					})
+				);
+		} else {
+			// No sourceUrl, no gif, no image
+			continue;
+		}
 
 		switch (asset.mimeType) {
 			case "image/gif": {
@@ -85,10 +103,10 @@ if (import.meta.main) {
 			repo: repo.repo,
 			description: repo.description,
 			sourceUrl: repo.sourceUrl,
-			image: assets.get(repo.repo)?.image,
-			gif: assets.get(repo.repo)?.gif,
+			image: assets.get(repo.repo)?.image ?? repo.image,
+			gif: assets.get(repo.repo)?.gif ?? repo.gif,
 		}));
 
 	let finalManifest = JSON.stringify(completeManifest, null, "\t") + "\n";
-	Deno.writeTextFileSync(`assets/manifest.json`, finalManifest);
+	Deno.writeTextFileSync("assets/manifest.json", finalManifest);
 }
