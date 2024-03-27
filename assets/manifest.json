@@ -238,5 +238,13 @@
 	{
 		"repo": "tBuLi/kingdon",
 		"description": "A symbolically optimized and pythonic Clifford (geometric) algebra library named after none other than William Kingdon Clifford."
+	},
+	{
+		"repo": "osscar-org/widget-bzvisualizer",
+		"description": "A Jupyter widget to show the first Brillouin zone of periodic crystals."
+	},
+	{
+		"repo": "osscar-org/widget-bandsplot",
+		"description": "A Jupyter widget to plot bandstructure and density of states."
 	}
 ]
