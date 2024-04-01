@@ -246,5 +246,9 @@
 	{
 		"repo": "osscar-org/widget-bandsplot",
 		"description": "A Jupyter widget to plot bandstructure and density of states."
+	},
+	{
+		"repo": "nuwandavek/justplotme",
+		"description": "a library that uses LLMs to perform the AGI level task of creating plots."
 	}
 ]
