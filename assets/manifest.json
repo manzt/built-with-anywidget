@@ -250,5 +250,25 @@
 	{
 		"repo": "nuwandavek/justplotme",
 		"description": "a library that uses LLMs to perform the AGI level task of creating plots."
+	},
+	{
+		"repo": "manzt/pygv",
+		"description": "a minimal, scriptable genome browser for python"
+	},
+	{
+		"repo": "osscar-org/widget-periodictable",
+		"description": "A jupyter widget to select chemical elements from the periodic table."
+	},
+	{
+		"repo": "superstar54/aiida-bader",
+		"description": "AiiDA plugin for Bader charge analysis"
+	},
+	{
+		"repo": "michelle123lam/lloom",
+		"description": "Concept Induction: Analyzing Unstructured Text with High-Level Concepts Using LLooM (CHI 2024 paper). LLooM automatically surfaces high-level concepts to analyze unstructured text."
+	},
+	{
+		"repo": "H-IAAC/d3vis_ipynb",
+		"description": "A Custom Jupyter Widget Library with visualizations created with D3.js"
 	}
 ]
