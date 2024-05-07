@@ -270,5 +270,9 @@
 	{
 		"repo": "H-IAAC/d3vis_ipynb",
 		"description": "A Custom Jupyter Widget Library with visualizations created with D3.js"
+	},
+	{
+		"repo": "jakobtroidl/jbar",
+		"description": "Interactive barcharts for Jupyter"
 	}
 ]
