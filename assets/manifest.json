@@ -274,5 +274,9 @@
 	{
 		"repo": "jakobtroidl/jbar",
 		"description": "Interactive barcharts for Jupyter"
+	},
+	{
+		"repo": "superstar54/aiida-workgraph",
+		"description": "Design flexible node-based workflows using AiiDA"
 	}
 ]
