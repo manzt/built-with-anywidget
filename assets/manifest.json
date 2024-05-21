@@ -282,5 +282,9 @@
 	{
 		"repo": "koaning/wigglystuff",
 		"description": "A collection of expressive Jupyter widgets."
+	},
+	{
+		"repo": "Toepfer-Lab/cobramod",
+		"description": "modify and extend genome-scale metabolic models with metabolic pathway information from various metabolic pathways databases or user-curated data sets"
 	}
 ]
