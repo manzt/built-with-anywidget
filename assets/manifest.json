@@ -278,5 +278,9 @@
 	{
 		"repo": "superstar54/aiida-workgraph",
 		"description": "Design flexible node-based workflows using AiiDA"
+	},
+	{
+		"repo": "koaning/wigglystuff",
+		"description": "A collection of expressive Jupyter widgets."
 	}
 ]
