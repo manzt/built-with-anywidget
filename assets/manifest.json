@@ -292,5 +292,9 @@
 	{
 		"repo": "osscar-org/widget-code-input",
 		"description": "A jupyter widget to allow input of a python function, with syntax highlighting"
+	},
+	{
+		"repo": "Cogniveon/torchflux",
+		"description": "An opinionated zero-config pytorch trainer"
 	}
 ]
