@@ -308,5 +308,9 @@
 		"description": "Make viewing images a blast!",
 		"image": "mwcraig__soupernova.jpeg",
 		"gif": "mwcraig__soupernova.gif"
+	},
+	{
+		"repo": "shyamsantoki/textlloom",
+		"description": "Directory for the LLooM python package"
 	}
 ]
