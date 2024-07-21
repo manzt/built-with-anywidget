@@ -312,5 +312,9 @@
 	{
 		"repo": "shyamsantoki/textlloom",
 		"description": "Directory for the LLooM python package"
+	},
+	{
+		"repo": "opengeos/leafmap",
+		"description": "A Python package for interactive mapping and geospatial analysis with minimal coding in a Jupyter environment"
 	}
 ]
