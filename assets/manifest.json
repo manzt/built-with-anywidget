@@ -316,5 +316,11 @@
 	{
 		"repo": "opengeos/leafmap",
 		"description": "A Python package for interactive mapping and geospatial analysis with minimal coding in a Jupyter environment"
+	},
+	{
+		"repo": "manzt/quak",
+		"description": "A scalable data profiler for quickly scanning large tables in Jupyter",
+		"image": "manzt__quak.jpg",
+		"gif": "manzt__quak.gif"
 	}
 ]
