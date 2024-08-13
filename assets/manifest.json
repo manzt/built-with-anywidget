@@ -322,5 +322,10 @@
 		"description": "A scalable data profiler for quickly scanning large tables in Jupyter",
 		"image": "manzt__quak.jpg",
 		"gif": "manzt__quak.gif"
+	},
+	{
+		"repo": "innovationOUtside/jupyter_anywidget_tesseract_pdfjs",
+		"description": "Sideloaded tesseract.js and pdfjs support for browser powered image and PDF OCR in Jupyter notebooks",
+		"image": "https://raw.githubusercontent.com/innovationOUtside/jupyter_anywidget_tesseract_pdfjs/main/images/widget_loading_ocr.png"
 	}
 ]
