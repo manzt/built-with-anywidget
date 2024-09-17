@@ -337,5 +337,11 @@
 		"repo": "innovationOUtside/jupyter_anywidget_graphviz",
 		"description": "Sideloaded graphviz WASM support for rendering dot language diagram scripts in Jupyter notebooks",
 		"image": "https://github.com/innovationOUtside/jupyter_anywidget_graphviz/raw/main/images/graphviz_anywidget.png"
+	},
+	{
+		"repo": "dvdkouril/chromospyce",
+		"description": "Visualize chromatin in space, as a widget!",
+		"image": "dvdkouril__chromospyce.png",
+		"gif": "dvdkouril__chromospyce.gif"
 	}
 ]
