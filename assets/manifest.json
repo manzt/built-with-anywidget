@@ -326,17 +326,17 @@
 	{
 		"repo": "innovationOUtside/jupyter_anywidget_tesseract_pdfjs",
 		"description": "Sideloaded tesseract.js and pdfjs support for browser powered image and PDF OCR in Jupyter notebooks",
-		"image": "https://raw.githubusercontent.com/innovationOUtside/jupyter_anywidget_tesseract_pdfjs/main/images/widget_loading_ocr.png"
+		"image": "innovationOUtside__jupyter_anywidget_tesseract_pdfjs.png"
 	},
 	{
 		"repo": "innovationOUtside/jupyter_anywidget_pglite",
 		"description": "Access sideloaded pglite WASM (PostgreSQL WASM) via Jupyter notebooks and anywidget.",
-		"image": "https://github.com/innovationOUtside/jupyter_anywidget_pglite/raw/main/images/pglite_anywidget_magic.png"
+		"image": "innovationOUtside__pglite_anywidget_magic.png"
 	},
 	{
 		"repo": "innovationOUtside/jupyter_anywidget_graphviz",
 		"description": "Sideloaded graphviz WASM support for rendering dot language diagram scripts in Jupyter notebooks",
-		"image": "https://github.com/innovationOUtside/jupyter_anywidget_graphviz/raw/main/images/graphviz_anywidget.png"
+		"image": "innovationOUtside__graphviz_anywidget.png"
 	},
 	{
 		"repo": "dvdkouril/chromospyce",
