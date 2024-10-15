@@ -12,6 +12,12 @@ let PartialRepoSchema = z.object({
 
 let wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
+let infoSchema = z.object({
+	stargazers_count: z.number().optional(),
+}).transform(d => ({
+	stars: d.stargazers_count ?? 0,
+}));
+
 export async function fetch_info(
 	repo: string,
 	options: { token?: string } = {},
@@ -31,9 +37,7 @@ export async function fetch_info(
 	let response = await fetch(url, { headers });
 	let json = await response.json();
 
-	return {
-		stars: z.number().parse(json.stargazers_count),
-	};
+	return infoSchema.parse(json);
 }
 
 if (import.meta.main) {

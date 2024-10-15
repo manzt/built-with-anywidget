@@ -331,12 +331,12 @@
 	{
 		"repo": "innovationOUtside/jupyter_anywidget_pglite",
 		"description": "Access sideloaded pglite WASM (PostgreSQL WASM) via Jupyter notebooks and anywidget.",
-		"image": "innovationOUtside__pglite_anywidget_magic.png"
+		"image": "innovationOUtside__jupyter_anywidget_pglite.png"
 	},
 	{
 		"repo": "innovationOUtside/jupyter_anywidget_graphviz",
 		"description": "Sideloaded graphviz WASM support for rendering dot language diagram scripts in Jupyter notebooks",
-		"image": "innovationOUtside__graphviz_anywidget.png"
+		"image": "innovationOUtside__jupyter_anywidget_graphviz.png"
 	},
 	{
 		"repo": "dvdkouril/chromospyce",
