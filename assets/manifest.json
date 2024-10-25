@@ -127,7 +127,7 @@
 		"description": "A simple Jupyter Widget to read and write text from the clipboard."
 	},
 	{
-		"repo": "eodaGmbH/py-maplibregl",
+		"repo": "eoda-dev/py-maplibregl",
 		"description": "Python bindings for MapLibre GL JS"
 	},
 	{
