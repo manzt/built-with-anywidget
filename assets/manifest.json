@@ -343,5 +343,11 @@
 		"description": "Visualize chromatin in space, as a widget!",
 		"image": "dvdkouril__chromospyce.png",
 		"gif": "dvdkouril__chromospyce.gif"
+	},
+	{
+		"repo": "adusachev/jupyter-paint-segment",
+		"description": "A jupyter widget for manual image segmentation.",
+		"image": "adusachev__jupyter-paint-segment.png",
+		"gif": "adusachev__jupyter-paint-segment.gif"
 	}
 ]
