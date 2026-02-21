@@ -356,5 +356,12 @@
 		"description": "A jupyter widget for manual image segmentation.",
 		"image": "adusachev__jupyter-paint-segment.png",
 		"gif": "adusachev__jupyter-paint-segment.gif"
+	},
+	{
+	  	"repo": "javirm3/marimo-toml-editor",
+	  	"description": "Interactive TOML config editor for Jupyter and marimo notebooks. Type-aware inputs, rich list/dict editors, tabs, undo/redo, search, and dark mode.",
+	  	"sourceUrl": "https://raw.githubusercontent.com/javirm3/marimo-toml-editor/main/docs/demo.gif",
+		"image":  "https://raw.githubusercontent.com/javirm3/marimo-toml-editor/main/docs/demo.png",
+		"gif": "https://raw.githubusercontent.com/javirm3/marimo-toml-editor/main/docs/demo.gif"
 	}
 ]
