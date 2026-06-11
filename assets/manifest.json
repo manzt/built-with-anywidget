@@ -357,10 +357,15 @@
 		"gif": "adusachev__jupyter-paint-segment.gif"
 	},
 	{
-	  	"repo": "javirm3/marimo-toml-editor",
-	  	"description": "Interactive TOML config editor for Jupyter and marimo notebooks. Type-aware inputs, rich list/dict editors, tabs, undo/redo, search, and dark mode.",
-	  	"sourceUrl": "https://raw.githubusercontent.com/javirm3/marimo-toml-editor/main/docs/demo.gif",
-		"image":  "javirm3__marimo-toml-editor.png",
+		"repo": "javirm3/marimo-toml-editor",
+		"description": "Interactive TOML config editor for Jupyter and marimo notebooks. Type-aware inputs, rich list/dict editors, tabs, undo/redo, search, and dark mode.",
+		"sourceUrl": "https://raw.githubusercontent.com/javirm3/marimo-toml-editor/main/docs/demo.gif",
+		"image": "javirm3__marimo-toml-editor.png",
 		"gif": "javirm3__marimo-toml-editor.gif"
+	},
+	{
+		"repo": "sanzoghenzo/ifc-viewer-anywidget",
+		"description": "Display an IFC model in your notebook.",
+		"image": "sanzoghenzo__ifc-viewer-anywidget.png"
 	}
 ]
