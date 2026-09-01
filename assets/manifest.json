@@ -362,5 +362,12 @@
 	  	"sourceUrl": "https://raw.githubusercontent.com/javirm3/marimo-toml-editor/main/docs/demo.gif",
 		"image":  "javirm3__marimo-toml-editor.png",
 		"gif": "javirm3__marimo-toml-editor.gif"
+	},
+	{
+		"repo": "K3D-tools/K3D-jupyter",
+		"description": "WebGL 3D plotting for Jupyter: meshes, isosurfaces, volumes, voxels and point clouds",
+		"sourceUrl": "https://raw.githubusercontent.com/K3D-tools/K3D-jupyter/main/imgs/streamlines.gif",
+		"image": "K3D-tools__K3D-jupyter.jpeg",
+		"gif": "K3D-tools__K3D-jupyter.gif"
 	}
 ]
